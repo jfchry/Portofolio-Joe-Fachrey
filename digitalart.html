@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Joe Fachrey - Digital Art</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<header id="header">
+    <a href="index.html" class="title">Joe Fachrey</a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="digitalart.html" class="active">Digital Art</a></li>
+        </ul>
+    </nav>
+</header>	
+<style>
+	/* Gallery grid styling */
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(3, 2fr); /* Three columns */
+		gap: 10px; /* Gap between images */
+		margin-bottom: 20px;
+	}
+
+	.gallery .image {
+		position: relative;
+		overflow: hidden;
+		width: 100%; /* Ensure full width */
+		padding-bottom: 100%; /* Creates 1:1 aspect ratio */
+	}
+
+	.gallery .image img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Maintain aspect ratio */
+		transition: transform 0.3s ease;
+	}
+
+	.gallery .image:hover img {
+		transform: scale(1.1); /* Scale up on hover */
+	}
+
+	.gallery .description {
+		margin-top: 10px;
+		font-family: Arial, sans-serif; /* Example font family */
+		color: #333; /* Example font color */
+	}
+</style>
+
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper">
+        <div class="inner">
+            <h1 class="major">Digital Art Gallery</h1>
+
+            <!-- First Collage -->
+            <div class="gallery">
+                <div class="image fit"><img src="images/digiart/artwork1.jpg" alt="Artwork 1" /></div>
+                <div class="image fit"><img src="images/digiart/artwork2.jpg" alt="Artwork 2" /></div>
+                <div class="image fit"><img src="images/digiart/artwork3.jpg" alt="Artwork 3" /></div>
+                <div class="image fit"><img src="images/digiart/artwork12.jpg" alt="Artwork 4" /></div>
+                <div class="image fit"><img src="images/digiart/artwork14.jpg" alt="Artwork 5" /></div>
+                <div class="image fit"><img src="images/digiart/artwork6.jpg" alt="Artwork 6" /></div>
+                <div class="image fit"><img src="images/digiart/artwork7.jpg" alt="Artwork 7" /></div>
+                <div class="image fit"><img src="images/digiart/artwork8.jpg" alt="Artwork 8" /></div>
+                <div class="image fit"><img src="images/digiart/artwork9.jpg" alt="Artwork 9" /></div>
+            </div>
+			<div class="description">
+				<p>Embark on a journey through the first group of my digital art collection, where landscapes serve as windows into the realms I yearn to traverse. Each piece is a profound exploration of serene vistas and awe-inspiring scenes, ignited by my profound reverence for nature's beauty and the far-off places that stir my imagination. These artworks are a testament to my quest to encapsulate the essence of tranquility and magnificence, inviting you to immerse yourself in the tranquil allure of distant horizons and picturesque landscapes. Through every stroke and hue, I aim to evoke a sense of wonder and connection to the natural world, capturing moments that transcend time and place.</p>
+			</div>
+
+            <!-- Second Collage -->
+            <div class="gallery">
+                <div class="image fit"><img src="images/digiart/artwork10.jpg" alt="Artwork 10" /></div>
+                <div class="image fit"><img src="images/digiart/artwork11.jpg" alt="Artwork 11" /></div>
+                <div class="image fit"><img src="images/digiart/artwork4.jpg" alt="Artwork 12" /></div>
+                <div class="image fit"><img src="images/digiart/artwork13.jpg" alt="Artwork 13" /></div>
+                <div class="image fit"><img src="images/digiart/artwork5.jpg" alt="Artwork 14" /></div>
+                <div class="image fit"><img src="images/digiart/artwork15.png" alt="Artwork 15" /></div>
+                <div class="image fit"><img src="images/digiart/artwork16.png" alt="Artwork 16" /></div>
+                <div class="image fit"><img src="images/digiart/artwork17.png" alt="Artwork 17" /></div>
+                <div class="image fit"><img src="images/digiart/artwork18.png" alt="Artwork 18" /></div>
+            </div>
+			<div class="description">
+				<p>Step into the second group of my digital art gallery, where characters spring to life from the depths of my imagination. Here, I explore the intricacies of personalities and stories, weaving emotions and narratives that resonate deeply within me. Whether it's breathing new life into beloved characters or crafting entirely original personas, each artwork is a canvas of passion and creativity. Through these creations, I delve into the art of storytelling, capturing moments that evoke empathy, curiosity, and a sense of wonder. Join me on this artistic journey as we uncover the limitless possibilities of digital creativity and the profound impact of visual narratives.</p>
+			</div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper style1-alt">
+	<div class="inner">
+		<ul class="menu">
+			<li>&copy; Medan, 17 July 2024.</li><li>Design:Joe Fachrey</a></li>
+		</ul>
+	</div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
